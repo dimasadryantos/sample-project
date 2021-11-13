@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    include: FileProcessor
+
+app:
+  profile: production
+  processor-name: FileProccesor
+  client-id: 00009
+  local-file-path: '/dimas/local/centerFolder/'
+
